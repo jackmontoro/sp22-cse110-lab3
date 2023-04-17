@@ -116,6 +116,67 @@
         </section>
     </main>
     <footer>
+        <div>
+            <h3>Exit Slip</h3>
+            <form>
+                <fieldset>
+                    <div>
+                        <input type="text" name="name" value="Enter Name:">
+                        <input type="date" name="date" value="2023-04-18">
+                        <select name="Team:">
+                            <option value="">Select your team</option>
+                            <option value="UI">8-Ball Interface</option>
+                            <option value="3DModel">8-Ball Model</option>
+                            <option value="AI">Chatbot Optimization</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <p>Which day(s) work(s) best for you in the future?</p>
+                        <input type="checkbox" name="Mon_preferred" id="Monday">
+                        <label for="Monday">Monday</label>
+                        <input type="checkbox" name="Tue_preferred" id="Tuesday">
+                        <label for="Tuesday">Tuesday</label>
+                        <input type="checkbox" name="Wed_preferred" id="Wednesday">
+                        <label for="Wednesday">Wednesday</label>
+                        <input type="checkbox" name="Thu_preferred" id="Thursday">
+                        <label for="Thursday">Thursday</label>
+                        <input type="checkbox" name="Fri_preferred" id="Friday">
+                        <label for="Friday">Friday</label>
+                    </div>
+                    <br>
+                    <fieldset>
+                        <legend>Would you like to switch teams?</legend>
+                        <div>
+                            <input type="radio" id="yes" name="switch?">
+                            <label for="yes">Yes, please let me switch</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="no" name="switch?">
+                            <label for="no">No, I am happy with my team</label>
+                        </div>
+                    </fieldset>
+                    <br>
+                    <div>
+                        <label for="meetingSpot">Where would you like to meet next?</label>
+                        <input list="spots" id="meetingSpot" name="spot">
+                        <datalist id="spots">
+                            <option value="Giesel Library"></option>
+                            <option value="Lab Room"></option>
+                            <option value="MOM's Coffee"></option>
+                        </datalist>
+
+                    </div>
+                    <div>
+                        <label for="comments">Comments:</label>
+                        <br>
+                        <textarea id="comments" name="comments" cols="50"></textarea>
+                    </div>
+                </fieldset>
+                <br>
+                <button>Submit</button>
+            </form>
+        </div>
 
     </footer>
   </body>
