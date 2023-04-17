@@ -1,3 +1,3 @@
 # Lab 2 - Starter
-[webpage address](github.com/jackmontoro/JackMontoro_Lab2)
-(github.com/jackmontoro/JackMontoro_Lab2)
+[webpage address](jackmontoro.github.io/JackMontoro_Lab2/)
+(jackmontoro.github.io/JackMontoro_Lab2/)
