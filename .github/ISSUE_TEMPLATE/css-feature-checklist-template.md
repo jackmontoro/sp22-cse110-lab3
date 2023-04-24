@@ -11,18 +11,18 @@ assignees: ''
 
 ## Feature 1
 
-- Element 1
+-[] Element 1
 
-- Element 2
+-[] Element 2
 
 ## Feature 2
 
-- Element 1
+-[] Element 1
 
-- Element 2
+-[] Element 2
 
 ## Feature 3
 
-- Element 1
+-[] Element 1
 
-- Element 2
+-[] Element 2
