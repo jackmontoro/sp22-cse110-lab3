@@ -1,8 +1,10 @@
 main {
+    display: inline-block;
     background-color: lightblue;
 }
   
 h1 {
+    display: block;
     color: hsl(240,100,25);
     margin-left: 20px;
     text-align: center;
@@ -90,4 +92,12 @@ button:active{
 
 a[href="https://github.com/jackmontoro/JackMontoro_Lab2"] {
     text-decoration: blue wavy underline;
+}
+
+*.wrapper {
+    color:black;
+}
+
+ol, ul {
+    color:orange;
 }
