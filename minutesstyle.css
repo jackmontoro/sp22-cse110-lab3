@@ -22,7 +22,7 @@ h2 {
     border-style: double;
     border-color: aqua;
     border-width: 1cm;
-    border-radius: 10px;
+    border-radius: 20mm;
     border-bottom-right-radius: 2em 10%;
     color: rgb(15, 7, 7);
 }
