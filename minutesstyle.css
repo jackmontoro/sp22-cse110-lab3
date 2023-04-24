@@ -5,8 +5,12 @@ main {
 h1 {
     color: hsl(240,100,25);
     margin-left: 20px;
+    text-align: center;
 }
 
+h2 {
+    text-align: center;
+}
 .box {
     border: 5px solid green;
     margin: auto;
@@ -82,4 +86,8 @@ button:active{
 
 #unfParagraph {
     font-family: "brunoAce";
+}
+
+a[href="https://github.com/jackmontoro/JackMontoro_Lab2"] {
+    text-decoration: blue wavy underline;
 }
