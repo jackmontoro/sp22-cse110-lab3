@@ -34,3 +34,26 @@ h1 {
     border-bottom-right-radius: 2em 10%;
     color: rgb(17, 5, 5);
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    justify-content: space-evenly;
+}
+
+.flexitem {
+    flex-shrink:3;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2px;
+    background-color: burlywood;
+}
+
+.item{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
