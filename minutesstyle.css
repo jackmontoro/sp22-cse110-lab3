@@ -65,3 +65,12 @@ button:hover{
 button:active{
     color:green;
 }
+
+@media (max-width:1250px){
+    .wrapper {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-column-gap: 2px;
+        background-color: burlywood;
+    }
+}
