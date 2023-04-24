@@ -103,3 +103,23 @@ a[href="https://github.com/jackmontoro/JackMontoro_Lab2"] {
 ol, ul {
     color:orange;
 }
+
+.item p {
+    color: blue;
+}
+
+ol > li {
+    border-bottom: 1px solid maroon;
+}
+
+h2 + ul {
+    font-style: italic;
+}
+
+h2 ~ p {
+    font-weight: bold;
+}
+
+ul > li[class="leader"] {
+    font-weight: bold;
+}
