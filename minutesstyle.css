@@ -74,3 +74,12 @@ button:active{
         background-color: burlywood;
     }
 }
+
+@font-face {
+    font-family: "brunoAce";
+    src: url(https://fonts.google.com/download?family=Bruno%20Ace);
+}
+
+#unfParagraph {
+    font-family: "brunoAce";
+}
