@@ -5,8 +5,12 @@ main {
 h1 {
     color: hsl(240,100,25);
     margin-left: 20px;
+    text-align: center;
 }
 
+h2 {
+    text-align: center;
+}
 .box {
     border: 5px solid green;
     margin: auto;
@@ -73,4 +77,17 @@ button:active{
         grid-column-gap: 2px;
         background-color: burlywood;
     }
+}
+
+@font-face {
+    font-family: "brunoAce";
+    src: url(https://fonts.google.com/download?family=Bruno%20Ace);
+}
+
+#unfParagraph {
+    font-family: "brunoAce";
+}
+
+a[href="https://github.com/jackmontoro/JackMontoro_Lab2"] {
+    text-decoration: blue wavy underline;
 }
