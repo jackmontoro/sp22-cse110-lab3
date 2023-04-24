@@ -12,6 +12,8 @@ h1 {
 
 h2 {
     text-align: center;
+    height: vh;
+    width: vw;
 }
 .box {
     border: 5px solid green;
@@ -22,7 +24,7 @@ h2 {
     border-style: double;
     border-color: aqua;
     border-width: 1cm;
-    border-radius: 20mm;
+    border-radius: 15mm;
     border-bottom-right-radius: 2em 10%;
     color: rgb(15, 7, 7);
 }
