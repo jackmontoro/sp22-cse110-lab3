@@ -88,7 +88,7 @@ button:active{
     src: url(brunoace-regular-webfont.woff);
 }
 
-#unfParagraph {
+p.brunoAce {
     font-family: "brunoAce";
 }
 
