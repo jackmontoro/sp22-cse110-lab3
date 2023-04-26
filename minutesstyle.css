@@ -85,7 +85,7 @@ button:active{
 
 @font-face {
     font-family: "brunoAce";
-    src: url(brunoace-regular-webfont.woff);
+    src: url(brunoace-regular-webfont.woff) format("truetype");
 }
 
 p.brunoAce {
